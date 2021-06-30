@@ -40,6 +40,7 @@ production:
 openshift:
   adapter: postgresql
   encoding: unicode
+  template: template0
   database: myapp_development
   pool: 5
   username: root
